@@ -1,3 +1,4 @@
+require("dashaw92.packer")
 require("dashaw92.remaps")
 require("dashaw92.config")
 
