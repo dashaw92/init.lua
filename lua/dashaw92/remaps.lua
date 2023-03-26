@@ -13,3 +13,7 @@ vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 -- Center while scrolling by pages
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- Buffers
+vim.keymap.set("n", "<C-n>", vim.cmd.bnext)
+vim.keymap.set("n", "<C-b>", vim.cmd.bprev)
