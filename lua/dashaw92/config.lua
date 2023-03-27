@@ -10,6 +10,7 @@ vim.opt.expandtab = true
 
 -- Indent
 vim.opt.smartindent = true
+vim.opt.autoindent = true
 
 -- No wrapping
 vim.opt.wrap = false
@@ -17,6 +18,9 @@ vim.opt.wrap = false
 -- Backup stuffs
 vim.opt.swapfile = false
 vim.opt.backup = false
+-- Linux:
+-- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+-- Windows:
 vim.opt.undodir = os.getenv("UserProfile") .. "/.vim/undodir"
 vim.opt.undofile = true
 
